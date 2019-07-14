@@ -1,0 +1,67 @@
+body {
+    max-width: 1366px;
+    margin: auto;
+}
+
+
+.offcanvas-container {
+    max-width: 1366px;
+    margin: auto;
+    float: none;
+    background: #343a40;
+    height: 670px;
+}
+
+.fa-align-right {
+    background-color: white;
+    padding: 5px 6px;
+    border-radius: 50%;
+    position: relative;
+    right: 128px;
+    font-size: 13px;
+}
+
+.offcanvas-container h5 {
+    font-size: 12px;
+    color: #bcc227;
+    position: relative;
+    left: 128px;
+    bottom: 20px;
+}
+
+.fejlec_tartalom {
+    position: relative;
+    top: 7em;
+}
+
+
+.fejlec_tartalom h1 {
+    position: relative;
+    left: 300px;
+    color: white;
+}
+
+.fejlec_tartalom p {
+    position: relative;
+    left: 300px;
+    top: 1em;
+    font-size: 12px;
+    line-height: 100%;
+    color: white;
+}
+
+.fejlec_tartalom a {
+    position: relative;
+    left: 300px;
+    top: 2em;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.kulso_logo {
+    position: relative;
+    left: 128px;
+}
+
