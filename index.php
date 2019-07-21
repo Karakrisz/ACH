@@ -204,26 +204,58 @@
 
     <h2 class="col-xl-5 col-lg-5 col-md-6 col-sm-6">Alumínium vágat kalkulátor</h2>
 
-    <div class="row">
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-            <img src="img/nincskep.png" alt="Kalkulator">
-        </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 
-            <form action="/action_page.php">
-                <div class="form-group">
-                    <input type="text" class="form-control form-control-sm" placeholder="Small form control" name="text1">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control form-control-sm" placeholder="Small form control" name="text1">
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control form-control-sm" placeholder="Small form control" name="text1">
-                </div>
-            </form>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                <img src="img/nincskep.png" alt="Kalkulator">
+            </div>
 
+
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+
+                <div class="form-group">
+                    <label>Vastagság (a)</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Small form control"
+                           name="text1">
+                </div>
+                <div class="form-group">
+                    <label>Szélesség (b)</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Small form control"
+                           name="text1">
+                </div>
+                <div class="form-group">
+                    <label>Hosszúság (c)</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Small form control"
+                           name="text1">
+                </div>
+
+
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+
+
+                <div class="form-group">
+                    <label>Vastagság (a)</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Small form control"
+                           name="text1">
+                </div>
+                <div class="form-group">
+                    <label>Szélesség (b)</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Small form control"
+                           name="text1">
+                </div>
+                <div class="form-group">
+                    <label>Hosszúság (c)</label>
+                    <input type="text" class="form-control form-control-sm" placeholder="Small form control"
+                           name="text1">
+                </div>
+
+
+            </div>
         </div>
-    </div>
+    </form>
 
 </div>
 

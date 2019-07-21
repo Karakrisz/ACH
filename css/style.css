@@ -204,6 +204,7 @@ body {
 .form-control-sm {
     background-color: #404041;
     color: white;
+    border-radius: 0;
 }
 
 #sel1 {
