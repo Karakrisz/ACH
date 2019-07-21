@@ -3,13 +3,64 @@ body {
     margin: auto;
 }
 
-
-.offcanvas-container {
+.header {
     max-width: 1366px;
     margin: auto;
-    float: none;
     background: #343a40;
     height: 670px;
+    padding: 0;
+}
+
+
+.menu {
+    margin: auto;
+    display: none;
+    position: relative;
+    z-index: 1;
+    background: white;
+    height: 615px;
+    border: 3px solid black;
+}
+
+.belso_menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 223px;
+    bottom: 80px;
+}
+
+.belso_linkek {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 193px;
+    bottom: 80px;
+    line-height: 150%;
+}
+
+.material-icons {
+    position: relative;
+    top: 0.22em;
+}
+
+.belso_linkek a {
+    font-size: 10px;
+    color: #bcc227;
+}
+
+.belso_linkek p {
+    font-size: 10px;
+}
+
+.belso_linkek i {
+    padding: 0 10px;
+}
+
+.nav-item a {
+    color: black;
+    font-size: 30px;
 }
 
 .fa-align-right {
@@ -21,29 +72,40 @@ body {
     font-size: 13px;
 }
 
-.offcanvas-container h5 {
+.fa-close {
+    background-color: black;
+    padding: 6px 7px;
+    border-radius: 50%;
+    position: relative;
+    right: 128px;
+    font-size: 13px;
+    color: white;
+    display: none;
+}
+
+.header h5 {
     font-size: 12px;
     color: #bcc227;
     position: relative;
-    left: 128px;
-    bottom: 20px;
+    padding-left: 128px;
+    bottom: 25px;
 }
 
 .fejlec_tartalom {
     position: relative;
-    top: 7em;
+    top: 8em;
 }
 
 
 .fejlec_tartalom h1 {
     position: relative;
-    left: 300px;
+    padding-left: 223px;
     color: white;
 }
 
 .fejlec_tartalom p {
     position: relative;
-    left: 300px;
+    padding-left: 223px;
     top: 1em;
     font-size: 12px;
     line-height: 100%;
@@ -52,8 +114,8 @@ body {
 
 .fejlec_tartalom a {
     position: relative;
-    left: 300px;
-    top: 2em;
+    left: 223px;
+    top: 4em;
     font-size: 14px;
     text-decoration: none;
     color: white;
@@ -63,5 +125,90 @@ body {
 .kulso_logo {
     position: relative;
     left: 128px;
+}
+
+.test_tartalom {
+    position: relative;
+    padding-left: 223px;
+    padding-right: 223px;
+    margin: 0;
+    background-color: #f6f6f6;
+    height: 720px;
+}
+
+.test_tartalom > div {
+    position: relative;
+    top: 5em;
+    background-color: #f6f6f6;
+}
+
+.precizitas {
+    padding-top: 75px;
+}
+
+.odafigyeles {
+    padding-top: 75px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 435px;
+}
+
+#demo {
+    padding-left: 223px;
+    padding-right: 223px;
+    position: relative;
+    top: 1em;
+}
+
+
+#demo a {
+    display: none;
+}
+
+.slider_tartalom {
+    position: relative;
+    padding-left: 223px;
+    padding-right: 223px;
+    top: 10em;
+    margin: 0;
+}
+
+.reklam_box {
+    padding-top: 213px;
+    padding-left: 223px;
+    background-color: #dbe32e;
+    height: 426px;
+    position: relative;
+    top: 15em;
+    color: white;
+}
+
+.kalkulator {
+    padding-top: 120px;
+    padding-left: 223px;
+    padding-right: 223px;
+    height: 714px;
+    background-color: #404041;
+    position: relative;
+    top: 15em;
+    color: white;
+}
+
+.kalkulator form {
+    width: 190px;
+    height: 45px;
+}
+
+.form-control-sm {
+    background-color: #404041;
+    color: white;
+}
+
+#sel1 {
+    background-color: #404041;
+    color: white;
+
 }
 
