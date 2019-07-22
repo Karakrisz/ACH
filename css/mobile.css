@@ -5,10 +5,7 @@ body {
 
 
 .header {
-    max-width: 1366px;
-    margin: auto;
     float: none;
-    background: #343a40;
     height: 670px;
 }
 
@@ -82,9 +79,10 @@ body {
     padding-right: 20px;
 }
 
-.test_tartalom  > div {
+.test_tartalom > div {
     position: relative;
     top: 7em;
+    background-color: #f6f6f6;
 }
 
 .test_tartalom h2 {
@@ -92,6 +90,7 @@ body {
     bottom: 50px;
     right: 15px;
 }
+
 #demo {
     padding-left: 20px;
     padding-right: 20px;
@@ -109,7 +108,7 @@ body {
 }
 
 .reklam_box {
-    padding-top: 20px;
+    padding-top: 180px;
     padding-left: 20px;
 }
 
@@ -117,9 +116,15 @@ body {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+    height: 100%;
 }
+
 .kalkulator img {
     width: 100%;
     height: 100%;
     margin: auto;
+}
+
+.btn {
+    top: 1.2em;
 }

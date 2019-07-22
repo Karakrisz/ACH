@@ -1,12 +1,17 @@
 
 .test_tartalom {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 720px;
 }
 
 .test_tartalom  > div {
+    padding-left: 50px;
+    padding-right: 50px;
     position: relative;
-    top: 5em;
+    top: 0em;
+    background-color: #f6f6f6;
 }
 #demo {
     padding-left: 50px;
@@ -24,7 +29,7 @@
 }
 
 .reklam_box {
-    padding-top: 50px;
+    padding-top: 180px;
     padding-left: 50px;
 }
 
@@ -32,4 +37,9 @@
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    height: 100%;
+}
+
+.btn {
+    top: 1.2em;
 }

@@ -6,7 +6,8 @@ body {
 .header {
     max-width: 1366px;
     margin: auto;
-    background: #343a40;
+    background-image: url(../img/03.png);
+    background-repeat: repeat-x;
     height: 670px;
     padding: 0;
 }
@@ -132,14 +133,15 @@ body {
     padding-left: 223px;
     padding-right: 223px;
     margin: 0;
-    background-color: #f6f6f6;
+    background-image: url(../img/02.png);
+    background-repeat: repeat-x;
     height: 720px;
+    bottom: 50px;
 }
 
 .test_tartalom > div {
     position: relative;
     top: 5em;
-    background-color: #f6f6f6;
 }
 
 .precizitas {
@@ -176,9 +178,10 @@ body {
 }
 
 .reklam_box {
-    padding-top: 213px;
+    padding-top: 180px;
     padding-left: 223px;
-    background-color: #dbe32e;
+    background-image: url(../img/01.png);
+    background-repeat: repeat-x;
     height: 426px;
     position: relative;
     top: 15em;
@@ -192,19 +195,20 @@ body {
     height: 714px;
     background-color: #404041;
     position: relative;
-    top: 15em;
+    top: 13em;
     color: white;
 }
 
-.kalkulator form {
-    width: 190px;
-    height: 45px;
+label {
+    color: #919090;
 }
 
-.form-control-sm {
+
+.form-control {
     background-color: #404041;
-    color: white;
     border-radius: 0;
+    width: 190px;
+    height: 50px;
 }
 
 #sel1 {
@@ -213,3 +217,48 @@ body {
 
 }
 
+.btn {
+    width: 126px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 0;
+    position: relative;
+    top: 2.2em;
+}
+
+iframe {
+    position: relative;
+    top: 13em;
+    width: 100%;
+    height: 635px;
+}
+
+.lablec {
+    padding-top: 140px;
+    background-color: black;
+    height: 670px;
+    position: relative;
+    top: 13em;
+}
+
+.lablec p {
+    color: white;
+}
+
+.lablec_icon {
+    position: relative;
+    top: 17em;
+}
+
+.lablec_icon i {
+    color: #bcc227;
+    padding: 0 10px;
+}
+
+.lablec_menu a {
+    position: relative;
+    top: 15em;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #555555;
+}
