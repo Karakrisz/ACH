@@ -235,10 +235,16 @@ iframe {
 
 .lablec {
     padding-top: 140px;
+    padding-left: 223px;
     background-color: black;
     height: 670px;
     position: relative;
     top: 13em;
+}
+
+.lablec a {
+    text-decoration: none;
+    color: #bcc227;
 }
 
 .lablec p {

@@ -301,7 +301,6 @@
                 <a href="#menu1">Rólunk</a>
                 <a href="#menu2">Termékek</a>
                 <a href="#menu3">Szolgáltatások</a>
-                <a href="#menu4">Galéria</a>
                 <a href="#menu4">Árajánlat</a>
                 <a href="#menu4">Kapcsolat</a>
 
