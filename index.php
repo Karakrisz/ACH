@@ -20,10 +20,12 @@
           media="only screen and (min-width: 675px) and (max-width: 1200px) "/>
     <link href="css/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width: 674px) "/>
 </head>
-<body onload="initialize()">
+<body>
 <div class="container-fluid header">
     <div class="navbar navbar-dark">
-        <a class="navbar-brand kulso_logo" href="#">Logo</a>
+        <a class="navbar-brand kulso_logo" href="#">
+            <img src="img/logo_2.jpg" alt="Logo">
+        </a>
         <button class="offcanvas-toggler" type="button">
             <i class='fas fa-align-right'></i>
             <i class='fa fa-close'></i>
@@ -271,7 +273,10 @@
     <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 
-            <a class="navbar-brand lablec_logo" href="#">Logo</a>
+            <a class="navbar-brand lablec_logo" href="#">
+                <img src="img/logo_2.jpg" alt="Logo">
+
+            </a>
             <p>Lorem ipsum dolor sit amet.</p>
 
             <div class="lablec_icon">

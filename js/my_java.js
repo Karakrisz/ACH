@@ -11,7 +11,6 @@ $(document).ready(function () {
         $(".fa-close").hide();
         $(".fa-align-right").fadeIn();
     });
-
 });
 
 

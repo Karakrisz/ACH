@@ -1,14 +1,14 @@
 
 .test_tartalom {
     padding-top: 50px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 720px;
 }
 
 .test_tartalom  > div {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     position: relative;
     top: 0em;
     background-color: #f6f6f6;
