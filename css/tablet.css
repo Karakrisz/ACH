@@ -1,3 +1,22 @@
+.kulso_logo {
+    left: 50px;
+}
+
+.header h5 {
+    padding-left: 50px;
+}
+
+.fejlec_tartalom h1 {
+    padding-left: 50px;
+}
+
+.fejlec_tartalom p {
+    padding-left: 50px;
+}
+
+.fejlec_tartalom a {
+    left: 50px;
+}
 
 .test_tartalom {
     padding-top: 50px;
@@ -27,6 +46,10 @@
     padding-right: 50px;
     top: 10em;
     margin: 0;
+}
+
+.menu {
+    padding-left: 50px;
 }
 
 .belso_menu {

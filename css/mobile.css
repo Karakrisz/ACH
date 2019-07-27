@@ -26,6 +26,18 @@ body {
     bottom: 20px;
 }
 
+.menu {
+    padding-left: 20px;
+}
+
+.menu img {
+    top: 0em;
+}
+
+#rolunk_fuggoleges {
+    display: none;
+}
+
 .belso_menu {
     position: relative;
     left: 0;

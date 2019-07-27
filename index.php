@@ -24,7 +24,7 @@
 <div class="container-fluid header">
     <div class="navbar navbar-dark">
         <a class="navbar-brand kulso_logo" href="#">
-            <img src="img/logo_2.jpg" alt="Logo">
+            <img src="img/ach-logo-v1.png" alt="Logo">
         </a>
         <button class="offcanvas-toggler" type="button">
             <i class='fas fa-align-right'></i>
@@ -33,6 +33,8 @@
 
 
     <div class="menu">
+        <img src="img/logo.jpg" alt="Logo">
+
         <a href="#">
             <i class='fa fa-close'></i>
         </a>
@@ -47,12 +49,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#menu3">Szolgáltatások</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#menu4">ISO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#menu4">Galéria</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#menu4">Árajánlat</a>
@@ -284,9 +280,11 @@
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 
             <a class="navbar-brand lablec_logo" href="#">
-                <img src="img/logo_2.jpg" alt="Logo">
+                <img src="img/ach-logo-v2.png" alt="Logo">
 
             </a>
+
+
             <p>Lorem ipsum dolor sit amet.</p>
 
             <div class="lablec_icon">

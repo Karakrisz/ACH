@@ -20,6 +20,11 @@ body {
     z-index: 1;
     background: white;
     height: 620px;
+    padding-left: 128px;
+}
+.menu img {
+    position: relative;
+    top: 2em;
 }
 
 .belso_menu {
