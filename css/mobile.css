@@ -28,13 +28,14 @@ body {
 
 .menu {
     padding-left: 20px;
+    height: 620px;
 }
 
 .menu img {
-    top: 0em;
+    top: 0.5em;
 }
 
-#rolunk_fuggoleges {
+#test_tartalom_rolunk_fuggoleges {
     display: none;
 }
 
@@ -44,6 +45,7 @@ body {
     right: 0;
     padding-left: 0px;
     bottom: 0px;
+    top: 2em;
 }
 
 .belso_linkek {
@@ -52,6 +54,7 @@ body {
     padding-right: 0px;
     bottom: 0px;
     line-height: 150%;
+    top: 4em;
 }
 
 .fejlec_tartalom {

@@ -40,6 +40,9 @@
         </a>
 
         <div class="belso_menu">
+            <div id="menu_tartalom_rolunk_fuggoleges">
+                <p>MENÜ</p>
+            </div>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#menu1">Rólunk</a>
@@ -101,7 +104,7 @@
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 test_tartalom">
     <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <div id="rolunk_fuggoleges">
+            <div id="test_tartalom_rolunk_fuggoleges">
                 <p>RÓLUNK</p>
             </div>
             <h2 class="col-xl-2 col-lg-2 col-md-6 col-sm-12">Amiben többek vagyunk</h2>
@@ -285,7 +288,7 @@
             </a>
 
 
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p class="col-sm-5">Lorem ipsum dolor sit amet.</p>
 
             <div class="lablec_icon">
                 <i class='fab fa-instagram'></i>

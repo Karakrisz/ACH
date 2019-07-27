@@ -17,6 +17,9 @@
 .fejlec_tartalom a {
     left: 50px;
 }
+#menu_tartalom_rolunk_fuggoleges {
+    padding-bottom: 80px;
+}
 
 .test_tartalom {
     padding-top: 50px;
