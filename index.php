@@ -139,13 +139,13 @@
 
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/nincskep.png" alt="Los Angeles">
+            <img src="img/foto_01.jpg" alt="Los Angeles">
         </div>
         <div class="carousel-item">
-            <img src="img/nincskep.png" alt="Los Angeles">
+            <img src="img/foto_01.jpg" alt="Los Angeles">
         </div>
         <div class="carousel-item">
-            <img src="img/nincskep.png" alt="Los Angeles">
+            <img src="img/foto_01.jpg" alt="Los Angeles">
         </div>
     </div>
 
