@@ -216,7 +216,7 @@
 
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
 
-            <img src="img/nincskep.png" alt="Los Angeles">
+            <img src="img/kalkulator_info_img.png" alt="Los Angeles">
 
         </div>
 
