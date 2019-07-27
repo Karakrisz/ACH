@@ -19,8 +19,7 @@ body {
     position: relative;
     z-index: 1;
     background: white;
-    height: 615px;
-    border: 3px solid black;
+    height: 620px;
 }
 
 .belso_menu {
@@ -49,6 +48,7 @@ body {
 .belso_linkek a {
     font-size: 10px;
     color: #bcc227;
+    text-decoration: underline;
 }
 
 .belso_linkek p {
@@ -78,10 +78,12 @@ body {
     padding: 6px 7px;
     border-radius: 50%;
     position: relative;
-    right: 128px;
     font-size: 13px;
     color: white;
     display: none;
+    float: right;
+    right: 153px;
+    top: 2.5em;
 }
 
 .header h5 {
@@ -126,6 +128,15 @@ body {
 .kulso_logo {
     position: relative;
     left: 128px;
+}
+
+#rolunk_fuggoleges {
+    position: absolute;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    padding-bottom: 80px;
+    color: #bcc227;
 }
 
 .test_tartalom {
@@ -245,6 +256,7 @@ iframe {
 .lablec a {
     text-decoration: none;
     color: #bcc227;
+    text-decoration: underline;
 }
 
 .lablec p {

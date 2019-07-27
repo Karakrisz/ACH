@@ -28,12 +28,15 @@
         </a>
         <button class="offcanvas-toggler" type="button">
             <i class='fas fa-align-right'></i>
-            <i class='fa fa-close'></i>
         </button>
     </div>
 
 
     <div class="menu">
+        <a href="#">
+            <i class='fa fa-close'></i>
+        </a>
+
         <div class="belso_menu">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -59,6 +62,7 @@
                 </li>
             </ul>
         </div>
+
         <div class="belso_linkek">
 
             <p>
@@ -101,6 +105,9 @@
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 test_tartalom">
     <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div id="rolunk_fuggoleges">
+                <p>RÓLUNK</p>
+            </div>
             <h2 class="col-xl-2 col-lg-2 col-md-6 col-sm-12">Amiben többek vagyunk</h2>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 tulajdonsagok">
