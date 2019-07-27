@@ -231,6 +231,27 @@
                         <input type="text" class="form-control" placeholder="1 mm">
                     </div>
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
+                        <label>Szélesség (b)</label>
+                        <input type="text" class="form-control" placeholder="1 mm">
+                    </div>
+
+                </div>
+
+                <div class="form-row mb-4">
+                    <div class="col-xl-6 xl-lg-6 xl-md-6">
+                        <label>Hosszúság (c)</label>
+                        <input type="text" class="form-control" placeholder="1 mm">
+                    </div>
+
+                    <div class="col-xl-6 xl-lg-6 xl-md-6">
+                        <label>Mennyiség</label>
+                        <input type="text" class="form-control" placeholder="1 db">
+                    </div>
+                </div>
+
+                <div class="form-row mb-4">
+
+                    <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <label>Termék típus</label>
                         <select class="form-control">
                             <option value="" disabled>Choose option</option>
@@ -239,24 +260,6 @@
                             <option value="3">Feature request</option>
                             <option value="4">Feature request</option>
                         </select>
-                    </div>
-                </div>
-
-                <div class="form-row mb-4">
-                    <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Szélesség (b)</label>
-                        <input type="text" class="form-control" placeholder="1 mm">
-                    </div>
-                    <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Mennyiség</label>
-                        <input type="text" class="form-control" placeholder="1 db">
-                    </div>
-                </div>
-
-                <div class="form-row mb-4">
-                    <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Hosszúság (c)</label>
-                        <input type="text" class="form-control" placeholder="1 mm">
                     </div>
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <!-- kalkulator button -->
