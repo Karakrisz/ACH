@@ -1,16 +1,16 @@
 $(document).ready(function () {
-    $(".fa-align-right").click(function () {
+    $(".menu_open").click(function () {
         $(".menu").fadeIn();
         $(".fejlec_tartalom").hide();
-        $(".fa-close").fadeIn();
-        $(".fa-align-right").hide();
+        $(".menu_close").fadeIn();
+        $(".menu_open").hide();
         $(".navbar-dark").hide();
     });
-    $(".fa-close").click(function () {
+    $(".menu_close").click(function () {
         $(".fejlec_tartalom").fadeIn();
         $(".menu").hide();
-        $(".fa-close").hide();
-        $(".fa-align-right").fadeIn();
+        $(".menu_close").hide();
+        $(".menu_open").fadeIn();
         $(".navbar-dark").fadeIn();
     });
 });

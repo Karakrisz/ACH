@@ -27,7 +27,8 @@
             <img src="img/ach-logo-v1.png" alt="Logo">
         </a>
         <button class="offcanvas-toggler" type="button">
-            <i class='fas fa-align-right'></i>
+            <img src="img/menu_open.png" class="menu_open" alt="menu_open">
+
         </button>
     </div>
 
@@ -35,8 +36,8 @@
     <div class="menu">
         <img src="img/logo.jpg" alt="Logo">
 
-        <a href="#">
-            <i class='fa fa-close'></i>
+        <a href="#" class="menu_close_a">
+            <img src="img/menu_close.png" class="menu_close" alt="menu_close">
         </a>
 
         <div class="belso_menu">

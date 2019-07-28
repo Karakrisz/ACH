@@ -77,19 +77,15 @@ body {
     font-size: 30px;
 }
 
-.fa-align-right {
+.menu_open {
     background-color: white;
-    padding: 5px 6px;
     border-radius: 50%;
     position: relative;
     right: 128px;
     font-size: 13px;
 }
 
-.fa-close {
-    background-color: black;
-    padding: 6px 7px;
-    border-radius: 50%;
+.menu_close {
     position: relative;
     font-size: 13px;
     color: white;
