@@ -34,7 +34,7 @@
 
 
     <div class="menu">
-        <img src="img/logo.jpg" alt="Logo">
+        <img src="img/logo.jpg" class="belso_logo" alt="Logo">
 
         <a href="#" class="menu_close_a">
             <img src="img/menu_close.png" class="menu_close" alt="menu_close">
@@ -55,7 +55,7 @@
                     <a class="nav-link" href="#menu3">Szolgáltatások</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#menu4">Árajánlat</a>
+                    <a class="nav-link" href="ajanlat.php">Árajánlat</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#menu4">Kapcsolat</a>

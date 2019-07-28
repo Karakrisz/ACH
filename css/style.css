@@ -30,10 +30,6 @@ body {
     padding-left: 128px;
 }
 
-.menu img {
-    position: relative;
-    top: 2em;
-}
 
 .belso_menu {
     position: absolute;
@@ -42,6 +38,11 @@ body {
     right: 0;
     padding-left: 223px;
     bottom: 80px;
+}
+
+.belso_logo {
+    position: relative;
+    top: 1em;
 }
 
 .belso_linkek {
@@ -87,12 +88,12 @@ body {
 
 .menu_close {
     position: relative;
+    top: 2.5em;
     font-size: 13px;
     color: white;
     display: none;
     float: right;
     right: 153px;
-    top: 2.5em;
 }
 
 .header h5 {
