@@ -49,7 +49,7 @@
                     <a class="nav-link" href="#menu1">Rólunk</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#menu2">Termékek</a>
+                    <a class="nav-link" href="termekek.php">Termékek</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#menu3">Szolgáltatások</a>

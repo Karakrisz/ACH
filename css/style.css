@@ -337,10 +337,10 @@ iframe {
 }
 
 .karrier_leiras {
-     position: relative;
-     top: 20em;
-     padding-left: 193px;
-     padding-right: 193px;
+    position: relative;
+    top: 20em;
+    padding-left: 193px;
+    padding-right: 193px;
 }
 
 .oneletrajz_bekuldes {
@@ -349,6 +349,7 @@ iframe {
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .oneletrajz_bekuldes h2 {
     position: relative;
     top: 1em;
@@ -357,4 +358,66 @@ iframe {
 .ajanlat_keres_alatti_boxok_csusztatas {
     position: relative;
     top: 20em;
+}
+
+.termekeink {
+    padding-top: 150px;
+    padding-left: 193px;
+    padding-right: 193px;
+}
+.termekeink h5 {
+    color: #bcc227;
+}
+#termekeink_fuggoleges {
+    position: absolute;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    padding-bottom: 100px;
+    color: #bcc227;
+}
+
+.termekeink_boxok_01 {
+    position: relative;
+    top:5em;
+}
+
+.termekeink_elso_sora {
+    padding-bottom: 130px;
+}
+
+.termekeink_boxok_02 {
+    position: relative;
+    top:5em;
+}
+
+.termekeink a {
+    position: relative;
+    left: 125px;
+    color: #bcc227;
+    text-decoration: none;
+}
+
+.termekeink_tablazat {
+    padding-top: 150px;
+    padding-left: 193px;
+    padding-right: 193px;
+}
+.termekeink_tablazat p {
+    background: #666666;
+    position: relative;
+    top: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.table thead {
+    background: #666666;
+    color: white;
+}
+
+.termekeink_csusztatas {
+    position: relative;
+    top: 15em;
 }

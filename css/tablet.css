@@ -17,6 +17,7 @@
 .fejlec_tartalom a {
     left: 50px;
 }
+
 #menu_tartalom_rolunk_fuggoleges {
     padding-bottom: 80px;
 }
@@ -84,19 +85,35 @@
     padding-left: 50px;
 
 }
+
 .ajanlat_keres {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 #ajanlat_demo {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .karrier_leiras {
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .oneletrajz_bekuldes {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.termekeink {
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.termekeink_tablazat {
+    padding-top: 75px;
     padding-left: 50px;
     padding-right: 50px;
 }
