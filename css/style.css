@@ -421,3 +421,35 @@ iframe {
     position: relative;
     top: 15em;
 }
+
+#szolgaltatasok_demo img {
+    width: 100%;
+    height: 435px;
+}
+
+#szolgaltatasok_demo {
+    padding-left: 193px;
+    padding-right: 193px;
+    position: relative;
+    top: 1em;
+}
+
+.szolgaltatsok {
+    padding-left: 193px;
+    padding-right: 193px;
+    position: relative;
+    top: 10em;
+}
+
+.szolgaltatsok a  {
+    color: #bcc227;
+    text-decoration: none;
+}
+
+.szolgaltatsok h5 {
+    color: #bcc227;
+}
+.szolgaltatsok_sora {
+    padding-bottom: 50px;
+}
+

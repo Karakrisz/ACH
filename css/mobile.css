@@ -222,3 +222,27 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#szolgaltatasok_demo img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#szolgaltatasok_demo {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.szolgaltatsok img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.szolgaltatsok {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+

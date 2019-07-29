@@ -52,7 +52,7 @@
                     <a class="nav-link" href="termekek.php">Termékek</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#menu3">Szolgáltatások</a>
+                    <a class="nav-link" href="szolgaltatasok.php">Szolgáltatások</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="ajanlat.php">Árajánlat</a>

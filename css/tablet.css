@@ -113,7 +113,19 @@
 }
 
 .termekeink_tablazat {
-    padding-top: 75px;
+     padding-top: 75px;
+     padding-left: 50px;
+     padding-right: 50px;
+}
+
+#szolgaltatasok_demo {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.szolgaltatsok {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
