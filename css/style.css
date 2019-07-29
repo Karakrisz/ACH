@@ -190,6 +190,9 @@ body {
 #index_demo a {
     display: none;
 }
+.carousel-indicators {
+    display: none;
+}
 
 .slider_tartalom {
     position: relative;
