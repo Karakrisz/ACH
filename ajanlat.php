@@ -146,7 +146,7 @@
             <h2 class="col-sm-6">Önéletrajz beküldése</h2>
         </div>
 
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 oneletrajz_bekuldes_dobozai">
 
             <form method="post" action="#!">
 
