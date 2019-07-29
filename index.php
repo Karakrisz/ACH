@@ -308,7 +308,7 @@
 
         </div>
 
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 lablec_linkek">
 
             <p>
                 <a href="#">info@alacut.hu</a>

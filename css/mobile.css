@@ -108,14 +108,14 @@ body {
     right: 15px;
 }
 
-#demo {
+#index_demo {
     padding-left: 20px;
     padding-right: 20px;
     position: relative;
     top: 7.5em;
 }
 
-#demo img {
+#index_demo img {
     width: 100%;
     height: 100%;
     margin: auto;
