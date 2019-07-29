@@ -276,6 +276,11 @@ iframe {
     position: relative;
     top: 13em;
 }
+.lablec_elso_tartalom p {
+    position: relative;
+    right: 10px;
+    padding-top: 30px;
+}
 
 .lablec a {
     text-decoration: none;
@@ -303,6 +308,11 @@ iframe {
     padding: 0 10px;
     text-decoration: none;
     color: #555555;
+}
+.lablec_linkek p {
+    line-height: 150%;
+    position: relative;
+    top: 4em;
 }
 
 .ajanlat_keres {

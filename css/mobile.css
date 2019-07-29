@@ -32,7 +32,7 @@ body {
 
 .menu {
     padding-left: 20px;
-    height: 620px;
+    height: 680px;
 }
 
 #test_tartalom_rolunk_fuggoleges {
@@ -53,8 +53,10 @@ body {
     right: 0;
     padding-right: 0px;
     bottom: 0px;
-    line-height: 150%;
-    top: 4em;
+    top: 5em;
+}
+.belso_logo {
+    left: 0;
 }
 
 .fejlec_tartalom {
@@ -156,7 +158,9 @@ body {
     padding-top: 80px;
     padding-left: 20px;
 }
-
+.lablec_menu a {
+    top: 10em;
+}
 .ajanlat_keres {
     padding-left: 20px;
     padding-right: 20px;
