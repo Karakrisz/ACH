@@ -40,6 +40,15 @@ body {
     bottom: 80px;
 }
 
+.back {
+    position: relative;
+    float: right;
+    right: 180px;
+    top: 2.5em;
+    color: black;
+    text-decoration: none;
+}
+
 .belso_logo {
     position: relative;
     top: 0.5em;

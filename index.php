@@ -40,6 +40,7 @@
 
         <a href="#" class="menu_close_a">
             <img src="img/menu_close.png" class="menu_close" alt="menu_close">
+            <a href="" class="back">BACK</a>
         </a>
 
         <div class="belso_menu">
@@ -295,7 +296,6 @@
                 <img src="img/ach-logo-v2.png" alt="Logo">
 
             </a>
-
 
 
             <p class="col-sm-5">Lorem ipsum dolor sit amet.</p>

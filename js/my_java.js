@@ -6,7 +6,16 @@ $(document).ready(function () {
         $(".menu_open").hide();
         $(".navbar-dark").hide();
     });
+
     $(".menu_close").click(function () {
+        $(".fejlec_tartalom").fadeIn();
+        $(".menu").hide();
+        $(".menu_close").hide();
+        $(".menu_open").fadeIn();
+        $(".navbar-dark").fadeIn();
+    });
+
+    $(".back").click(function () {
         $(".fejlec_tartalom").fadeIn();
         $(".menu").hide();
         $(".menu_close").hide();
