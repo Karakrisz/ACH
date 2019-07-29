@@ -1,6 +1,12 @@
 .kulso_logo {
     left: 50px;
 }
+.belso_logo {
+    position: relative;
+    top: 0.5em;
+    left: 0px;
+}
+
 
 .header h5 {
     padding-left: 50px;
