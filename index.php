@@ -130,7 +130,7 @@
     </div>
 </div>
 
-<div id="demo" class="carousel slide" data-ride="carousel">
+<div id="index_demo" class="carousel slide" data-ride="carousel">
 
     <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -227,33 +227,33 @@
 
                 <div class="form-row mb-4">
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Vastagság (a)</label>
-                        <input type="text" class="form-control" placeholder="1 mm">
+                        <label class="kalkulator_label">Vastagság (a)</label>
+                        <input type="text" class="form-control kalkulator_formok" placeholder="1 mm">
                     </div>
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Szélesség (b)</label>
-                        <input type="text" class="form-control" placeholder="1 mm">
+                        <label class="kalkulator_label">Szélesség (b)</label>
+                        <input type="text" class="form-control kalkulator_formok" placeholder="1 mm">
                     </div>
 
                 </div>
 
                 <div class="form-row mb-4">
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Hosszúság (c)</label>
-                        <input type="text" class="form-control" placeholder="1 mm">
+                        <label class="kalkulator_label">Hosszúság (c)</label>
+                        <input type="text" class="form-control kalkulator_formok" placeholder="1 mm">
                     </div>
 
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Mennyiség</label>
-                        <input type="text" class="form-control" placeholder="1 db">
+                        <label class="kalkulator_label">Mennyiség</label>
+                        <input type="text" class="form-control kalkulator_formok" placeholder="1 db">
                     </div>
                 </div>
 
                 <div class="form-row mb-4">
 
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
-                        <label>Termék típus</label>
-                        <select class="form-control">
+                        <label class="kalkulator_label">Termék típus</label>
+                        <select class="form-control kalkulator_formok">
                             <option value="" disabled>Choose option</option>
                             <option value="1" selected>EN AW 2017</option>
                             <option value="2">Report a bug</option>
@@ -263,7 +263,7 @@
                     </div>
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <!-- kalkulator button -->
-                        <button class="btn" type="submit">KALKULAL</button>
+                        <button class="btn kalkulator_btn" type="submit">KALKULAL</button>
                     </div>
                 </div>
 
