@@ -113,12 +113,13 @@
 }
 
 .termekeink_tablazat {
-     padding-top: 75px;
-     padding-left: 50px;
-     padding-right: 50px;
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #szolgaltatasok_demo {
+    padding-top: 75px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -126,6 +127,30 @@
 .szolgaltatsok {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#iso_demo {
+    padding-top: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.iso_tartalom {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.iso_letoltes_tartalom h5 {
+    right: 80px;
+}
+
+.iso_letoltes_tartalom_sorai {
+    padding-bottom: 115px;
+}
+
+.iso_letoltes_tartalom a {
+    right: 80px;
 }
 
 

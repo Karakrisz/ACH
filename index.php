@@ -23,7 +23,7 @@
 <body>
 <div class="container-fluid header">
     <div class="navbar navbar-dark">
-        <a class="navbar-brand kulso_logo" href="#">
+        <a class="navbar-brand kulso_logo" href="index.php">
             <img src="img/ach-logo-v1.png" alt="Logo">
         </a>
         <button class="offcanvas-toggler" type="button">
@@ -34,7 +34,9 @@
 
 
     <div class="menu">
-        <img src="img/logo.jpg" class="belso_logo" alt="Logo">
+        <a href="index.php">
+            <img src="img/logo.jpg" class="belso_logo" alt="Logo">
+        </a>
 
         <a href="#" class="menu_close_a">
             <img src="img/menu_close.png" class="menu_close" alt="menu_close">
@@ -53,6 +55,12 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="szolgaltatasok.php">Szolgáltatások</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="iso.php">ISO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galleria.php">Galléria</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="ajanlat.php">Árajánlat</a>

@@ -13,6 +13,7 @@ $(document).ready(function () {
         $(".menu_open").fadeIn();
         $(".navbar-dark").fadeIn();
     });
+
 });
 
 

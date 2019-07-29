@@ -42,7 +42,8 @@ body {
 
 .belso_logo {
     position: relative;
-    top: 1em;
+    top: 0.5em;
+    left: 20px;
 }
 
 .belso_linkek {
@@ -365,9 +366,11 @@ iframe {
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .termekeink h5 {
     color: #bcc227;
 }
+
 #termekeink_fuggoleges {
     position: absolute;
     -ms-transform: rotate(-90deg);
@@ -379,7 +382,7 @@ iframe {
 
 .termekeink_boxok_01 {
     position: relative;
-    top:5em;
+    top: 5em;
 }
 
 .termekeink_elso_sora {
@@ -388,7 +391,7 @@ iframe {
 
 .termekeink_boxok_02 {
     position: relative;
-    top:5em;
+    top: 5em;
 }
 
 .termekeink a {
@@ -403,6 +406,7 @@ iframe {
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .termekeink_tablazat p {
     background: #666666;
     position: relative;
@@ -428,10 +432,15 @@ iframe {
 }
 
 #szolgaltatasok_demo {
+    padding-top: 150px;
     padding-left: 193px;
     padding-right: 193px;
     position: relative;
     top: 1em;
+}
+
+#szolgaltatasok_demo a {
+    display: none;
 }
 
 .szolgaltatsok {
@@ -441,7 +450,7 @@ iframe {
     top: 10em;
 }
 
-.szolgaltatsok a  {
+.szolgaltatsok a {
     color: #bcc227;
     text-decoration: none;
 }
@@ -449,7 +458,65 @@ iframe {
 .szolgaltatsok h5 {
     color: #bcc227;
 }
+
 .szolgaltatsok_sora {
     padding-bottom: 50px;
 }
 
+
+#iso_demo img {
+    width: 100%;
+    height: 435px;
+}
+
+#iso_demo {
+    padding-top: 150px;
+    padding-left: 193px;
+    padding-right: 193px;
+    position: relative;
+    top: 1em;
+}
+
+#iso_demo a {
+    display: none;
+}
+
+.iso_tartalom {
+    padding-left: 193px;
+    padding-right: 193px;
+    position: relative;
+    top: 10em;
+}
+
+.iso_letoltes_tartalom {
+    position: relative;
+    top: 5em;
+}
+
+.iso_letoltes_tartalom i {
+    font-size: 125px;
+    color: #dbe23e;
+}
+
+.iso_letoltes_tartalom h5 {
+    position: relative;
+    right: 80px;
+}
+
+.iso_letoltes_tartalom_sorai {
+    padding-bottom: 115px;
+}
+
+.iso_letoltes_tartalom a {
+    color: #dbe23e;
+    position: relative;
+    right: 80px;
+    top: 3em;
+    text-decoration: none;
+}
+
+.galleria {
+    padding-top: 150px;
+    padding-left: 193px;
+    padding-right: 193px;
+}

@@ -22,6 +22,57 @@
 </head>
 <body>
 
+<div class="navbar navbar-dark">
+    <a class="navbar-brand kulso_logo" href="index.php">
+        <img src="img/ach-logo-v1.png" alt="Logo">
+    </a>
+    <button class="offcanvas-toggler" type="button">
+        <img src="img/menu_open.png" class="menu_open" alt="menu_open">
+
+    </button>
+</div>
+
+
+<div class="menu">
+    <a href="index.php">
+        <img src="img/logo.jpg" class="belso_logo" alt="Logo">
+    </a>
+
+    <a href="#" class="menu_close_a">
+        <img src="img/menu_close.png" class="menu_close" alt="menu_close">
+    </a>
+
+    <div class="belso_menu">
+        <div id="menu_tartalom_rolunk_fuggoleges">
+            <p>MENÜ</p>
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#menu1">Rólunk</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="termekek.php">Termékek</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="szolgaltatasok.php">Szolgáltatások</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="iso.php">ISO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="galleria.php">Galléria</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ajanlat.php">Árajánlat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#menu4">Kapcsolat</a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ajanlat_keres">
     <div class="row">
 

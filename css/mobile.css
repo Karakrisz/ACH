@@ -230,6 +230,7 @@ body {
 }
 
 #szolgaltatasok_demo {
+    padding-top: 25px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -244,5 +245,43 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#iso_demo img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#iso_demo {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 5em;
+}
+
+.iso_tartalom {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.iso_tartalom h5 {
+    position: relative;
+    top: 1em;
+}
+
+
+.iso_letoltes_tartalom h5 {
+    right: 0px;
+}
+
+.iso_letoltes_tartalom_sorai {
+    padding-bottom: 115px;
+}
+
+.iso_letoltes_tartalom a {
+    right: 0px;
+}
+
+
+
 
 
