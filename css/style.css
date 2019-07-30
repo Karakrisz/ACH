@@ -1,33 +1,23 @@
 @font-face {
-    src: url(../Raleway/Raleway-Black.ttf);
-    font-family: Raleway-Black;
 
-    src: url(../Raleway/Raleway-ExtraBold.ttf);
-    font-family: Raleway-ExtraBold;
+    src: url(../Montserrat/Montserrat-Bold.ttf);
+    font-family: Montserrat-Bold;
 
-    src: url(../Raleway/Raleway-BlackItalic.ttf);
-    font-family: Raleway-BlackItalic;
-
-    src: url(../Raleway/Raleway-Bold.ttf);
-    font-family: Raleway-Bold;
-
-    src: url(../Raleway/Raleway-Thin.ttf);
-    font-family: Raleway-Thin;
-
-
-    src: url(../Raleway/Raleway-SemiBold.ttf);
-    font-family: Raleway-SemiBold;
 }
+
 @font-face {
 
-    src: url(../Raleway/Raleway-Thin.ttf);
-    font-family: Raleway-Thin;
+    src: url(../Raleway/Raleway-Medium.ttf);
+    font-family: Raleway-Medium;
 
 }
+
+
 body {
     max-width: 1366px;
     margin: auto;
 }
+
 .header {
     max-width: 1366px;
     margin: auto;
@@ -36,14 +26,15 @@ body {
     height: 670px;
     padding: 0;
 }
+
 #menu_tartalom_rolunk_fuggoleges {
     position: absolute;
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     padding-bottom: 100px;
-    font-family: Raleway-Thin;
 }
+
 .menu {
     margin: auto;
     display: none;
@@ -53,6 +44,7 @@ body {
     height: 620px;
     padding-left: 128px;
 }
+
 .belso_menu {
     position: absolute;
     bottom: 0;
@@ -61,6 +53,7 @@ body {
     padding-left: 223px;
     bottom: 80px;
 }
+
 .back {
     position: relative;
     float: right;
@@ -69,11 +62,13 @@ body {
     color: black;
     text-decoration: none;
 }
+
 .belso_logo {
     position: relative;
     top: 0.5em;
     left: 20px;
 }
+
 .belso_linkek {
     position: absolute;
     bottom: 0;
@@ -82,25 +77,31 @@ body {
     bottom: 80px;
     line-height: 30%;
 }
+
 .material-icons {
     position: relative;
     top: 0.22em;
 }
+
 .belso_linkek a {
     font-size: 10px;
     color: #bcc227;
     text-decoration: underline;
 }
+
 .belso_linkek p {
     font-size: 10px;
 }
+
 .belso_linkek i {
     padding: 0 10px;
 }
+
 .nav-item a {
     color: black;
     font-size: 30px;
 }
+
 .menu_open {
     background-color: white;
     border-radius: 50%;
@@ -108,6 +109,7 @@ body {
     right: 128px;
     font-size: 13px;
 }
+
 .menu_close {
     position: relative;
     top: 2.5em;
@@ -117,25 +119,31 @@ body {
     float: right;
     right: 153px;
 }
+
 .header h5 {
     font-size: 12px;
     color: #bcc227;
     position: relative;
     padding-left: 128px;
-    bottom: 25px;
+    bottom: 16px;
+    font-family: Raleway-Medium;
+    font-size: 16pt;
 }
+
 .fejlec_tartalom {
     position: relative;
-    top: 5em;
+    top: 2em;
 }
+
 .fejlec_tartalom h1 {
     position: relative;
     padding-left: 223px;
     color: white;
-    font-family: Raleway-SemiBold;
-    font-size: 50px;
+    font-family: Montserrat-Bold;
+    font-size: 60pt;
     line-height: 100%;
 }
+
 .fejlec_tartalom p {
     position: relative;
     padding-left: 223px;
@@ -143,19 +151,25 @@ body {
     font-size: 12px;
     line-height: 100%;
     color: white;
+    font-family: Raleway-Medium;
+    font-size: 16pt;
 }
+
 .fejlec_tartalom a {
     position: relative;
     left: 223px;
-    top: 4em;
-    font-size: 14px;
+    top: 3em;
+    font-size: 12pt;
     text-decoration: none;
     color: white;
+    font-family: Raleway-Medium;
 }
+
 .kulso_logo {
     position: relative;
     left: 128px;
 }
+
 #test_tartalom_rolunk_fuggoleges {
     position: absolute;
     -ms-transform: rotate(-90deg);
@@ -163,8 +177,11 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 80px;
     color: #bcc227;
-    font-family: Raleway-Thin;
+    font-family: Raleway-Medium;
+    font-size: 16pt;
+    left: 25px;
 }
+
 .test_tartalom {
     position: relative;
     padding-left: 223px;
@@ -175,32 +192,48 @@ body {
     height: 720px;
     bottom: 50px;
 }
-.test_tartalom>div {
+
+.test_tartalom > div {
     position: relative;
     top: 5em;
 }
+
+.test_tartalom h2 {
+    font-size: 42pt;
+    font-family: Montserrat-Bold;
+    position: relative;
+    left: 50px;
+
+}
+
 .precizitas {
     padding-top: 75px;
 }
+
 .odafigyeles {
     padding-top: 75px;
 }
+
 #index_demo img {
     width: 100%;
     height: 435px;
 }
+
 #index_demo {
     padding-left: 223px;
     padding-right: 223px;
     position: relative;
     top: 1em;
 }
+
 #index_demo a {
     display: none;
 }
+
 .carousel-indicators {
     display: none;
 }
+
 .slider_tartalom {
     position: relative;
     padding-left: 223px;
@@ -208,6 +241,7 @@ body {
     top: 10em;
     margin: 0;
 }
+
 .reklam_box {
     padding-top: 180px;
     padding-left: 223px;
@@ -218,6 +252,7 @@ body {
     top: 15em;
     color: white;
 }
+
 .kalkulator {
     padding-top: 120px;
     padding-left: 223px;
@@ -228,12 +263,15 @@ body {
     top: 13em;
     color: white;
 }
+
 .kalkulator_label {
     color: #919090;
 }
+
 .ajanlat_label {
     color: #aaa9a9;
 }
+
 .kalkulator_formok {
     background-color: #404041;
     border-radius: 0;
@@ -241,10 +279,12 @@ body {
     height: 50px;
     color: white;
 }
+
 #sel1 {
     background-color: #404041;
     color: white;
 }
+
 .kalkulator_btn {
     width: 126px;
     height: 45px;
@@ -253,6 +293,7 @@ body {
     position: relative;
     top: 2.2em;
 }
+
 .ajanlat_btn {
     border-radius: 0;
     position: relative;
@@ -260,12 +301,14 @@ body {
     height: 48px;
     background-color: #404041;
 }
+
 iframe {
     position: relative;
     top: 13em;
     width: 100%;
     height: 635px;
 }
+
 .lablec {
     padding-top: 140px;
     padding-left: 223px;
@@ -274,27 +317,33 @@ iframe {
     position: relative;
     top: 13em;
 }
+
 .lablec_elso_tartalom p {
     position: relative;
     right: 10px;
     padding-top: 30px;
 }
+
 .lablec a {
     text-decoration: none;
     color: #bcc227;
     text-decoration: underline;
 }
+
 .lablec p {
     color: white;
 }
+
 .lablec_icon {
     position: relative;
     top: 14.5em;
 }
+
 .lablec_icon i {
     color: #bcc227;
     padding: 0 10px;
 }
+
 .lablec_menu a {
     position: relative;
     top: 15em;
@@ -302,64 +351,78 @@ iframe {
     text-decoration: none;
     color: #555555;
 }
+
 .lablec_linkek p {
     line-height: 150%;
     position: relative;
     top: 4em;
 }
+
 .ajanlat_keres {
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .ajanlat_keres_dobozai {
     position: relative;
     top: 9em;
 }
+
 .ajanlat_keres h2 {
     position: relative;
     top: 2em;
 }
+
 #ajanlat_demo {
     padding-left: 193px;
     padding-right: 193px;
     position: relative;
     top: 15em;
 }
+
 #ajanlat_demo img {
     width: 100%;
     height: 432px;
 }
+
 #ajanlat_demo a {
     display: none;
 }
+
 .karrier_leiras {
     position: relative;
     top: 20em;
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .oneletrajz_bekuldes {
     position: relative;
     top: 26em;
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .oneletrajz_bekuldes h2 {
     position: relative;
     top: 1em;
 }
+
 .ajanlat_keres_alatti_boxok_csusztatas {
     position: relative;
     top: 20em;
 }
+
 .termekeink {
     padding-top: 150px;
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .termekeink h5 {
     color: #bcc227;
 }
+
 #termekeink_fuggoleges {
     position: absolute;
     -ms-transform: rotate(-90deg);
@@ -368,28 +431,34 @@ iframe {
     padding-bottom: 100px;
     color: #bcc227;
 }
+
 .termekeink_boxok_01 {
     position: relative;
     top: 5em;
 }
+
 .termekeink_elso_sora {
     padding-bottom: 130px;
 }
+
 .termekeink_boxok_02 {
     position: relative;
     top: 5em;
 }
+
 .termekeink a {
     position: relative;
     left: 125px;
     color: #bcc227;
     text-decoration: none;
 }
+
 .termekeink_tablazat {
     padding-top: 150px;
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .termekeink_tablazat p {
     background: #666666;
     position: relative;
@@ -398,18 +467,22 @@ iframe {
     padding-bottom: 40px;
     color: white;
 }
+
 .table thead {
     background: #666666;
     color: white;
 }
+
 .termekeink_csusztatas {
     position: relative;
     top: 15em;
 }
+
 #szolgaltatasok_demo img {
     width: 100%;
     height: 435px;
 }
+
 #szolgaltatasok_demo {
     padding-top: 150px;
     padding-left: 193px;
@@ -417,29 +490,36 @@ iframe {
     position: relative;
     top: 1em;
 }
+
 #szolgaltatasok_demo a {
     display: none;
 }
+
 .szolgaltatsok {
     padding-left: 193px;
     padding-right: 193px;
     position: relative;
     top: 10em;
 }
+
 .szolgaltatsok a {
     color: #bcc227;
     text-decoration: none;
 }
+
 .szolgaltatsok h5 {
     color: #bcc227;
 }
+
 .szolgaltatsok_sora {
     padding-bottom: 50px;
 }
+
 #iso_demo img {
     width: 100%;
     height: 435px;
 }
+
 #iso_demo {
     padding-top: 150px;
     padding-left: 193px;
@@ -447,30 +527,37 @@ iframe {
     position: relative;
     top: 1em;
 }
+
 #iso_demo a {
     display: none;
 }
+
 .iso_tartalom {
     padding-left: 193px;
     padding-right: 193px;
     position: relative;
     top: 10em;
 }
+
 .iso_letoltes_tartalom {
     position: relative;
     top: 5em;
 }
+
 .iso_letoltes_tartalom i {
     font-size: 125px;
     color: #dbe23e;
 }
+
 .iso_letoltes_tartalom h5 {
     position: relative;
     right: 80px;
 }
+
 .iso_letoltes_tartalom_sorai {
     padding-bottom: 115px;
 }
+
 .iso_letoltes_tartalom a {
     color: #dbe23e;
     position: relative;
@@ -478,6 +565,7 @@ iframe {
     top: 3em;
     text-decoration: none;
 }
+
 .galleria {
     padding-top: 150px;
     padding-left: 193px;
