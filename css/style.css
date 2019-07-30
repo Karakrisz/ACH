@@ -12,6 +12,13 @@
 
 }
 
+@font-face {
+
+    src: url(../Raleway/Raleway-Black.ttf);
+    font-family: Raleway-Black;
+
+}
+
 
 body {
     max-width: 1366px;
@@ -65,8 +72,8 @@ body {
 
 .belso_logo {
     position: relative;
-    top: 0.5em;
-    left: 20px;
+    top: 0.8em;
+    left: 15px;
 }
 
 .belso_linkek {
@@ -124,15 +131,16 @@ body {
     font-size: 12px;
     color: #bcc227;
     position: relative;
-    padding-left: 128px;
-    bottom: 16px;
+    padding-left: 148px;
+    bottom: 50px;
     font-family: Raleway-Medium;
-    font-size: 16pt;
+    letter-spacing: 7px;
+    font-size: 16px;
 }
 
 .fejlec_tartalom {
     position: relative;
-    top: 2em;
+    top: 5em;
 }
 
 .fejlec_tartalom h1 {
@@ -140,8 +148,9 @@ body {
     padding-left: 223px;
     color: white;
     font-family: Montserrat-Bold;
-    font-size: 60pt;
-    line-height: 100%;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 110%;
 }
 
 .fejlec_tartalom p {
@@ -152,17 +161,24 @@ body {
     line-height: 100%;
     color: white;
     font-family: Raleway-Medium;
-    font-size: 16pt;
+    font-size: 17px;
+    letter-spacing: 2px;
 }
 
 .fejlec_tartalom a {
     position: relative;
     left: 223px;
-    top: 3em;
-    font-size: 12pt;
+    top: 4em;
     text-decoration: none;
     color: white;
     font-family: Raleway-Medium;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.vonal {
+    width: 100%;
+    border-bottom: 1px solid white;
 }
 
 .kulso_logo {
@@ -178,8 +194,8 @@ body {
     padding-bottom: 80px;
     color: #bcc227;
     font-family: Raleway-Medium;
-    font-size: 16pt;
-    left: 25px;
+    font-size: 16px;
+    left: 40px;
 }
 
 .test_tartalom {
@@ -199,11 +215,21 @@ body {
 }
 
 .test_tartalom h2 {
-    font-size: 42pt;
+    font-size: 42px;
     font-family: Montserrat-Bold;
     position: relative;
     left: 50px;
+}
 
+.test_tartalom h4 {
+    font-family: Raleway-Black;
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+
+.test_tartalom p {
+    font-family: Raleway-Medium;
+    font-size: 14px;
 }
 
 .precizitas {
@@ -242,8 +268,20 @@ body {
     margin: 0;
 }
 
+.slider_tartalom h2 {
+    font-family: Montserrat-Bold;
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+.slider_tartalom p {
+    font-family: Raleway-Medium;
+    font-size: 14px;
+}
+
+
 .reklam_box {
-    padding-top: 180px;
+    padding-top: 150px;
     padding-left: 223px;
     background-image: url(../img/01.png);
     background-repeat: repeat-x;
@@ -251,6 +289,12 @@ body {
     position: relative;
     top: 15em;
     color: white;
+}
+
+.reklam_box h2 {
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+    letter-spacing: 7px;
 }
 
 .kalkulator {
@@ -263,6 +307,13 @@ body {
     top: 13em;
     color: white;
 }
+
+.kalkulator h2 {
+    font-family: Montserrat-Bold;
+    font-size: 42px;
+    letter-spacing: 7px;
+}
+
 
 .kalkulator_label {
     color: #919090;

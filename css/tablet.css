@@ -1,6 +1,7 @@
 .kulso_logo {
     left: 50px;
 }
+
 .belso_logo {
     position: relative;
     top: 0.5em;
@@ -14,7 +15,7 @@
 
 .fejlec_tartalom h1 {
     padding-left: 50px;
-    font-size: 45pt;
+    font-size: 45px;
 }
 
 .fejlec_tartalom p {
@@ -44,6 +45,10 @@
     background-color: #f6f6f6;
 }
 
+.test_tartalom h2 {
+    font-size: 32px;
+}
+
 #index_demo {
     padding-left: 50px;
     padding-right: 50px;
@@ -58,6 +63,25 @@
     top: 10em;
     margin: 0;
 }
+
+.slider_tartalom h2 {
+    font-family: Montserrat-Bold;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.reklam_box h2 {
+    font-family: Montserrat-Bold;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
+.kalkulator h2 {
+    font-family: Montserrat-Bold;
+    font-size: 32px;
+    letter-spacing: 7px;
+}
+
 
 .menu {
     padding-left: 50px;
@@ -92,6 +116,7 @@
     padding-left: 50px;
 
 }
+
 .lablec_menu a {
     top: 16em;
 }

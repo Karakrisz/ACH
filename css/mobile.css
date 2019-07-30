@@ -22,6 +22,7 @@ body {
 .menu_close_a {
     padding-top: 20px;
 }
+
 .back {
     right: 50px;
 }
@@ -59,6 +60,7 @@ body {
     bottom: 0px;
     top: 5em;
 }
+
 .belso_logo {
     left: 0;
 }
@@ -72,7 +74,7 @@ body {
 .fejlec_tartalom h1 {
     padding-left: 0px;
     color: white;
-    font-size: 27pt;
+    font-size: 27px;
 }
 
 .fejlec_tartalom p {
@@ -112,7 +114,9 @@ body {
 .test_tartalom h2 {
     position: relative;
     bottom: 50px;
-    right: 15px;
+    font-size: 32px;
+    right: 45px;
+    left: 0;
 }
 
 #index_demo {
@@ -137,10 +141,24 @@ body {
     margin: 0;
 }
 
+.slider_tartalom h2 {
+    font-family: Montserrat-Bold;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+
 .reklam_box {
-    padding-top: 180px;
+    padding-top: 130px;
     padding-left: 20px;
 }
+
+.reklam_box h2 {
+    font-family: Montserrat-Bold;
+    font-size: 40px;
+    letter-spacing: 7px;
+}
+
 
 .kalkulator {
     padding-top: 20px;
@@ -148,6 +166,13 @@ body {
     padding-right: 15px;
     height: 100%;
 }
+
+.kalkulator h2 {
+    font-family: Montserrat-Bold;
+    font-size: 25px;
+    letter-spacing: 7px;
+}
+
 
 .kalkulator img {
     width: 100%;
@@ -163,9 +188,11 @@ body {
     padding-top: 80px;
     padding-left: 20px;
 }
+
 .lablec_menu a {
     top: 10em;
 }
+
 .ajanlat_keres {
     padding-left: 20px;
     padding-right: 20px;
@@ -272,6 +299,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .iso_tartalom h5 {
     position: relative;
     top: 1em;
