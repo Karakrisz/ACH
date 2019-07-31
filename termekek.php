@@ -73,7 +73,7 @@
 </div>
 
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 termekeink">
-    <h2 class="col-xl-5 col-lg-5 col-md-6 col-sm-6">Alumíminium rudak, profilok, szerelvények</h2>
+    <h1 class="col-xl-12 col-lg-12 col-md-12 col-sm-12">Alumíminium rudak, <br>profilok, szerelvények</h1>
     <br>
     <div class="row termekeink_elso_sora">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">

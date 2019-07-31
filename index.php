@@ -44,9 +44,13 @@
         </a>
 
         <div class="belso_menu">
+            <div id="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+
             <div id="menu_tartalom_rolunk_fuggoleges">
                 <p>MENÜ</p>
             </div>
+            </div>
+
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#menu1">Rólunk</a>

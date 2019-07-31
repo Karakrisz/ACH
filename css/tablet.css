@@ -8,6 +8,11 @@
     left: 0px;
 }
 
+.nav-item a {
+    color: black;
+    font-family: Montserrat-Bold;
+    font-size: 30px;
+}
 
 .header h5 {
     padding-left: 50px;
@@ -88,7 +93,7 @@
 }
 
 .belso_menu {
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .belso_linkek {
@@ -146,6 +151,22 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.termekeink h1 {
+    font-size: 40px;
+}
+
+.termekeink h2 {
+    font-size: 40px;
+}
+
+.termekeink a {
+    position: relative;
+    left: 200px;
+    color: #bcc227;
+    text-decoration: none;
+}
+
 
 .termekeink_tablazat {
     padding-top: 75px;

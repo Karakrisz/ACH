@@ -50,7 +50,7 @@ body {
     right: 0;
     padding-left: 0px;
     bottom: 0px;
-    top: 2em;
+    top: 3em;
 }
 
 .belso_linkek {
@@ -58,11 +58,15 @@ body {
     right: 0;
     padding-right: 0px;
     bottom: 0px;
-    top: 5em;
+    top: 7em;
 }
 
 .belso_logo {
     left: 0;
+}
+
+.nav-item a {
+    font-size: 27px;
 }
 
 .fejlec_tartalom {
@@ -242,6 +246,14 @@ body {
     margin: auto;
     position: relative;
     top: 3em;
+}
+
+.termekeink h1 {
+    font-size: 30px;
+}
+
+.termekeink h2 {
+    font-size: 30px;
 }
 
 

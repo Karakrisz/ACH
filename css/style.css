@@ -19,6 +19,20 @@
 
 }
 
+@font-face {
+
+    src: url(../Raleway/Raleway-Bold.ttf);
+    font-family: Raleway-Bold;
+
+}
+
+@font-face {
+
+    src: url(../Raleway/Raleway-ExtraBold.ttf);
+    font-family: Raleway-ExtraBold;
+
+}
+
 
 body {
     max-width: 1366px;
@@ -34,11 +48,15 @@ body {
     padding: 0;
 }
 
-#menu_tartalom_rolunk_fuggoleges {
+#menu_tartalom_rolunk_fuggoleges p {
     position: absolute;
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
+    padding-bottom: 80px;
+    color: #bcc227;
+    font-family: Raleway-Medium;
+    font-size: 16px;
     padding-bottom: 100px;
 }
 
@@ -57,7 +75,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    padding-left: 223px;
+    padding-left: 280px;
     bottom: 80px;
 }
 
@@ -80,7 +98,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding-right: 193px;
+    padding-right: 223px;
     bottom: 80px;
     line-height: 30%;
 }
@@ -106,7 +124,10 @@ body {
 
 .nav-item a {
     color: black;
-    font-size: 30px;
+    font-family: Montserrat-Bold;
+    font-size: 40px;
+    letter-spacing: 7px;
+    line-height: 120%;
 }
 
 .menu_open {
@@ -195,7 +216,7 @@ body {
     color: #bcc227;
     font-family: Raleway-Medium;
     font-size: 16px;
-    left: 40px;
+    left: 70px;
 }
 
 .test_tartalom {
@@ -373,6 +394,8 @@ iframe {
     position: relative;
     right: 10px;
     padding-top: 30px;
+    font-size: 16px;
+    font-family: Raleway-Medium;
 }
 
 .lablec a {
@@ -397,14 +420,14 @@ iframe {
 
 .lablec_menu a {
     position: relative;
-    top: 15em;
+    top: 18em;
     padding: 0 10px;
     text-decoration: none;
     color: #555555;
 }
 
 .lablec_linkek p {
-    line-height: 150%;
+    line-height: 100%;
     position: relative;
     top: 4em;
 }
@@ -470,10 +493,6 @@ iframe {
     padding-right: 193px;
 }
 
-.termekeink h5 {
-    color: #bcc227;
-}
-
 #termekeink_fuggoleges {
     position: absolute;
     -ms-transform: rotate(-90deg);
@@ -481,6 +500,8 @@ iframe {
     transform: rotate(-90deg);
     padding-bottom: 100px;
     color: #bcc227;
+    font-size: 16px;
+    font-family: Raleway-Medium;
 }
 
 .termekeink_boxok_01 {
@@ -499,9 +520,30 @@ iframe {
 
 .termekeink a {
     position: relative;
-    left: 125px;
+    left: 250px;
     color: #bcc227;
     text-decoration: none;
+    font-family: Raleway-Bold;
+    font-size: 16px;
+}
+
+.termekeink h1 {
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 110%;
+}
+
+.termekeink h2 {
+    font-size: 48px;
+    font-family: Raleway-Black;
+}
+
+.termekeink h5 {
+    font-family: Raleway-ExtraBold;
+    font-size: 38px;
+    color: #bcc227;
+
 }
 
 .termekeink_tablazat {
