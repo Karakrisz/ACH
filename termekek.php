@@ -159,13 +159,13 @@
 
     <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 reklam_box">
 
-        <h2 class="col-xl-6 col-lg-6 col-md-6 col-sm-6">Lorem ipsum dolor sit amet</h2>
+        <h2 class="col-xl-12 col-lg-12 col-md-12 col-sm-12">Lorem ipsum <br>dolor sit amet</h2>
 
     </div>
 
     <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 kalkulator">
 
-        <h2 class="col-xl-5 col-lg-5 col-md-6 col-sm-6">Alumínium vágat kalkulátor</h2>
+        <h2 class="col-xl-12 col-lg-12 col-md-12 col-sm-12">Alumínium vágat<br> kalkulátor</h2>
 
         <div class="row">
 

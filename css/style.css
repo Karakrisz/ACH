@@ -342,6 +342,8 @@ body {
 
 .ajanlat_label {
     color: #aaa9a9;
+    font-family: Raleway-Medium;
+    font-size: 14px;
 }
 
 .kalkulator_formok {
@@ -445,6 +447,10 @@ iframe {
 .ajanlat_keres h2 {
     position: relative;
     top: 2em;
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 110%;
 }
 
 #ajanlat_demo {
@@ -469,6 +475,17 @@ iframe {
     padding-left: 193px;
     padding-right: 193px;
 }
+.karrier_leiras h2 {
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 110%;
+}
+
+.karrier_leiras p {
+    font-size: 16px;
+    font-family: Raleway-Medium;
+}
 
 .oneletrajz_bekuldes {
     position: relative;
@@ -479,7 +496,10 @@ iframe {
 
 .oneletrajz_bekuldes h2 {
     position: relative;
-    top: 1em;
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 110%;
 }
 
 .ajanlat_keres_alatti_boxok_csusztatas {
@@ -595,9 +615,43 @@ iframe {
     top: 10em;
 }
 
+.szolgaltatsok h2 {
+    font-size: 42px;
+    font-family: Raleway-Black;
+
+}
+
+.szolgaltatsok h5 {
+    font-family: Raleway-ExtraBold;
+    font-size: 30px;
+}
+
+.szolgaltatsok p {
+    font-size: 14px;
+    font-family: Raleway-Medium;
+
+}
+
 .szolgaltatsok a {
     color: #bcc227;
     text-decoration: none;
+    font-family: Raleway-Medium;
+    font-size: 16px;
+}
+
+#szolgaltatasok_demo h2 {
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+    letter-spacing: 7px;
+    line-height: 110%;
+}
+
+#szolgaltatasok_demo h6 {
+
+    font-family: Raleway-Bold;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 110%;
 }
 
 .szolgaltatsok h5 {
@@ -621,6 +675,12 @@ iframe {
     top: 1em;
 }
 
+#iso_demo h2 {
+    font-family: Montserrat-Bold;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
 #iso_demo a {
     display: none;
 }
@@ -630,6 +690,22 @@ iframe {
     padding-right: 193px;
     position: relative;
     top: 10em;
+}
+
+.iso_tartalom h1 {
+    font-size: 42px;
+    font-family: Raleway-Black;
+}
+
+.iso_tartalom p {
+    font-family: Raleway-Medium;
+    font-size: 14px;
+}
+
+
+.iso_tartalom h6 {
+    font-size: 36px;
+    font-family: Raleway-Black;
 }
 
 .iso_letoltes_tartalom {
@@ -645,6 +721,8 @@ iframe {
 .iso_letoltes_tartalom h5 {
     position: relative;
     right: 80px;
+    font-size: 36px;
+    font-family: Raleway-Black;
 }
 
 .iso_letoltes_tartalom_sorai {

@@ -185,10 +185,34 @@
     padding-right: 50px;
 }
 
+#szolgaltatasok_demo h2 {
+    font-size: 40px;
+}
+
+.szolgaltatsok h2 {
+    font-size: 32px;
+    font-family: Raleway-Black;
+
+}
+
+.szolgaltatsok h5 {
+    font-family: Raleway-ExtraBold;
+    font-size: 20px;
+}
+
 #iso_demo {
     padding-top: 75px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+#iso_demo h2 {
+    font-size: 40px;
+}
+
+.iso_tartalom h1 {
+    font-size: 32px;
+    font-family: Raleway-Black;
 }
 
 .iso_tartalom {
@@ -198,6 +222,7 @@
 
 
 .iso_letoltes_tartalom h5 {
+    font-size: 30px;
     right: 80px;
 }
 
@@ -207,6 +232,18 @@
 
 .iso_letoltes_tartalom a {
     right: 80px;
+}
+
+.ajanlat_keres h2 {
+    font-size: 40px;
+}
+
+.karrier_leiras h2 {
+    font-size: 40px;
+}
+
+.oneletrajz_bekuldes h2 {
+    font-size: 40px;
 }
 
 
