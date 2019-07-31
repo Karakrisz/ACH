@@ -742,3 +742,11 @@ iframe {
     padding-left: 193px;
     padding-right: 193px;
 }
+
+.map {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
