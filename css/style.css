@@ -144,7 +144,7 @@ body {
     background-color: white;
     border-radius: 50%;
     position: relative;
-    right: 128px;
+    right: 145px;
     font-size: 13px;
 }
 
@@ -776,6 +776,15 @@ iframe {
     filter: grayscale(100%);
 }
 
-input[placeholder], [placeholder], *[placeholder] {
-    color: red !important;
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
 }

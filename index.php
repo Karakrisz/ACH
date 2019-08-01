@@ -244,11 +244,11 @@
                 <div class="form-row mb-4">
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <label class="kalkulator_label">Vastagság (a)</label>
-                        <input type="text" class="form-control kalkulator_formok" placeholder="1 mm">
+                        <input type="text" class="kalkulator_formok" placeholder="1 mm">
                     </div>
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <label class="kalkulator_label">Szélesség (b)</label>
-                        <input type="text" class="form-control kalkulator_formok" placeholder="1 mm">
+                        <input type="text" class="kalkulator_formok" placeholder="1 mm">
                     </div>
 
                 </div>
@@ -256,12 +256,12 @@
                 <div class="form-row mb-4">
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <label class="kalkulator_label">Hosszúság (c)</label>
-                        <input type="text" class="form-control kalkulator_formok" placeholder="1 mm">
+                        <input type="text" class=" kalkulator_formok" placeholder="1 mm">
                     </div>
 
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <label class="kalkulator_label">Mennyiség</label>
-                        <input type="text" class="form-control kalkulator_formok" placeholder="1 db">
+                        <input type="text" class="kalkulator_formok" placeholder="1 db">
                     </div>
                 </div>
 

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a70b6e31-34e4-44fe-85fc-7b2949b5ea67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ajanlat.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajanlat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galleria.php" beforeDir="false" afterPath="$PROJECT_DIR$/galleria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iso.php" beforeDir="false" afterPath="$PROJECT_DIR$/iso.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/my_java.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/my_java.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szolgaltatasok.php" beforeDir="false" afterPath="$PROJECT_DIR$/szolgaltatasok.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="73" column="48" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="48" />
+            <state relative-caret-position="4177">
+              <caret line="263" column="50" selection-start-line="263" selection-start-column="50" selection-end-line="263" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -90,16 +86,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="775" column="28" lean-forward="true" selection-start-line="775" selection-start-column="28" selection-end-line="775" selection-end-column="28" />
+            <state relative-caret-position="362">
+              <caret line="145" column="23" lean-forward="true" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/my_java.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
@@ -177,13 +173,13 @@
         <option value="$PROJECT_DIR$/termekek.php" />
         <option value="$PROJECT_DIR$/css/tablet.css" />
         <option value="$PROJECT_DIR$/css/mobile.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/ajanlat.php" />
         <option value="$PROJECT_DIR$/galleria.php" />
         <option value="$PROJECT_DIR$/iso.php" />
         <option value="$PROJECT_DIR$/szolgaltatasok.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/my_java.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -254,12 +250,12 @@
       <workItem from="1564388208775" duration="3275000" />
       <workItem from="1564402876809" duration="17737000" />
       <workItem from="1564505192180" duration="17969000" />
-      <workItem from="1564650520547" duration="5571000" />
+      <workItem from="1564650520547" duration="6119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137831000" />
+    <option name="totallyTimeSpent" value="138379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,13 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="775" column="28" lean-forward="true" selection-start-line="775" selection-start-column="28" selection-end-line="775" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/termekek.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -393,17 +382,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="73" column="48" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/my_java.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4177">
+          <caret line="263" column="50" selection-start-line="263" selection-start-column="50" selection-end-line="263" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="145" column="23" lean-forward="true" selection-start-line="145" selection-start-column="23" selection-end-line="145" selection-end-column="23" />
         </state>
       </provider>
     </entry>
