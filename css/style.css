@@ -48,16 +48,17 @@ body {
     padding: 0;
 }
 
-#menu_tartalom_rolunk_fuggoleges p {
+#menu_tartalom_rolunk_fuggoleges  {
     position: absolute;
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    padding-bottom: 80px;
-    color: #bcc227;
+    color: #d9e126;
     font-family: Raleway-Medium;
     font-size: 16px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    padding-bottom: 150px;
 }
 
 .menu {
@@ -84,6 +85,15 @@ body {
     float: right;
     right: 180px;
     top: 2.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.mellek_oldal_back {
+    position: relative;
+    float: right;
+    right: 30px;
+    top: 1.8em;
     color: black;
     text-decoration: none;
 }
@@ -212,11 +222,12 @@ body {
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    padding-bottom: 80px;
-    color: #bcc227;
+    padding-bottom: 70px;
+    letter-spacing: 5px;
+    color: #d9e126;
     font-family: Raleway-Medium;
     font-size: 16px;
-    left: 70px;
+    left: 20px;
 }
 
 .test_tartalom {
@@ -434,6 +445,18 @@ iframe {
     top: 4em;
 }
 
+.mellek_oldal_menu {
+    padding-top: 10px;
+    padding-left: 153px;
+    padding-right: 153px;
+}
+
+.mellek_oldal_menu_close_a {
+    float: right;
+    position: relative;
+    top: 1.5em;
+}
+
 .ajanlat_keres {
     padding-left: 193px;
     padding-right: 193px;
@@ -475,6 +498,7 @@ iframe {
     padding-left: 193px;
     padding-right: 193px;
 }
+
 .karrier_leiras h2 {
     font-family: Montserrat-Bold;
     font-size: 60px;
@@ -519,7 +543,8 @@ iframe {
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     padding-bottom: 100px;
-    color: #bcc227;
+    letter-spacing: 5px;
+    color: #d9e126;
     font-size: 16px;
     font-family: Raleway-Medium;
 }
@@ -749,4 +774,8 @@ iframe {
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: red !important;
 }

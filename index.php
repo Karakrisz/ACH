@@ -33,7 +33,7 @@
     </div>
 
 
-    <div class="menu">
+    <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 menu">
         <a href="index.php">
             <img src="img/logo.jpg" class="belso_logo" alt="Logo">
         </a>
