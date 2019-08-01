@@ -29,6 +29,7 @@
 
     <a href="index.php" class="mellek_oldal_menu_close_a">
         <img src="img/menu_close.png" class="mellek_oldal_menu_close" alt="menu_close">
+        <a href="" class="mellek_oldal_back">BACK</a>
     </a>
 
 

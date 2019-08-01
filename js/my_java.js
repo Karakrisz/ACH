@@ -25,4 +25,16 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+    $('.rolunk').click(function () {
+        $('html, body').animate({
+            scrollTop: $("div.test_tartalom").offset().top
+        }, 1000)
+    });
 
+    $('.kapcsolat').click(function () {
+        $('html, body').animate({
+            scrollTop: $("div.lablec").offset().top
+        }, 1000)
+    });
+});

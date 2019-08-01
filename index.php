@@ -53,7 +53,7 @@
 
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#menu1">Rólunk</a>
+                    <a class="nav-link rolunk" href="#rolunk">Rólunk</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="termekek.php">Termékek</a>
@@ -71,7 +71,7 @@
                     <a class="nav-link" href="ajanlat.php">Árajánlat</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#menu4">Kapcsolat</a>
+                    <a class="nav-link kapcsolat" href="#kapcsolat">Kapcsolat</a>
                 </li>
             </ul>
         </div>
