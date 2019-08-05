@@ -48,12 +48,12 @@ body {
     padding: 0;
 }
 
-#menu_tartalom_rolunk_fuggoleges  {
+#menu_tartalom_rolunk_fuggoleges {
     position: absolute;
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    color: #d9e126;
+    color: black;
     font-family: Raleway-Medium;
     font-size: 16px;
     padding-bottom: 20px;
@@ -403,6 +403,7 @@ iframe {
     top: 13em;
 }
 
+
 .lablec_elso_tartalom p {
     position: relative;
     right: 10px;
@@ -433,7 +434,7 @@ iframe {
 
 .lablec_menu a {
     position: relative;
-    top: 18em;
+    top: 17em;
     padding: 0 10px;
     text-decoration: none;
     color: #555555;
@@ -441,6 +442,14 @@ iframe {
 
 .lablec_linkek p {
     line-height: 100%;
+    position: relative;
+    top: 6em;
+}
+
+.lablec_linkek h6 {
+    font-family: Raleway-Medium;
+    font-size: 18px;
+    color: white;
     position: relative;
     top: 4em;
 }

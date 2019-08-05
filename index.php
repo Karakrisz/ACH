@@ -46,9 +46,9 @@
         <div class="belso_menu">
             <div id="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 
-            <div id="menu_tartalom_rolunk_fuggoleges">
-                <p>MENÜ</p>
-            </div>
+                <div id="menu_tartalom_rolunk_fuggoleges">
+                    <p>MENÜ</p>
+                </div>
             </div>
 
             <ul class="navbar-nav">
@@ -292,7 +292,8 @@
 </div>
 
 
-<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.122755969438!2d18.97269091536551!3d47.4485465068766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0a8f600a4cb%3A0x7dbc943a284b195e!2zQnVkYXBlc3QsIFJlcMO8bMWRdMOpcmkgw7p0IDEsIDExMTI!5e0!3m2!1shu!2shu!4v1563795099417!5m2!1shu!2shu"
+<iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.122755969438!2d18.97269091536551!3d47.4485465068766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0a8f600a4cb%3A0x7dbc943a284b195e!2zQnVkYXBlc3QsIFJlcMO8bMWRdMOpcmkgw7p0IDEsIDExMTI!5e0!3m2!1shu!2shu!4v1563795099417!5m2!1shu!2shu"
         frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 lablec">
@@ -318,6 +319,9 @@
         </div>
 
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 lablec_linkek">
+
+            <h6>GET IN TOUCH</h6>
+
 
             <p>
                 <a href="#">info@alacut.hu</a>
