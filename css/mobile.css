@@ -40,6 +40,11 @@ body {
     height: 680px;
 }
 
+#menu_tartalom_rolunk_fuggoleges {
+    padding-top: 50px;
+    display: none;
+}
+
 #test_tartalom_rolunk_fuggoleges {
     display: none;
 }
@@ -233,6 +238,20 @@ body {
     position: relative;
     top: 17em;
 }
+
+#termekek_demo img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#termekek_demo {
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 5em;
+}
+
 
 .termekeink {
     padding-top: 25px;

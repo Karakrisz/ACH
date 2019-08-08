@@ -43,7 +43,7 @@ body {
     max-width: 1366px;
     margin: auto;
     background-image: url(../img/03.png);
-    background-repeat: repeat-x;
+    background-repeat: round;
     height: 670px;
     padding: 0;
 }
@@ -56,9 +56,9 @@ body {
     color: black;
     font-family: Raleway-Medium;
     font-size: 16px;
-    padding-bottom: 20px;
     letter-spacing: 5px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-left: 50px;
 }
 
 .menu {
@@ -236,7 +236,7 @@ body {
     padding-right: 223px;
     margin: 0;
     background-image: url(../img/02.png);
-    background-repeat: repeat-x;
+    background-repeat: round;
     height: 720px;
     bottom: 50px;
 }
@@ -289,6 +289,10 @@ body {
 }
 
 .carousel-indicators {
+    display: none;
+}
+
+.nyilak {
     display: none;
 }
 
@@ -540,6 +544,56 @@ iframe {
     top: 20em;
 }
 
+#termekek_demo img {
+    width: 100%;
+    height: 435px;
+}
+
+#termekek_demo {
+    padding-top: 150px;
+    padding-left: 193px;
+    padding-right: 193px;
+    position: relative;
+}
+
+#termekek_demo h2 {
+    font-size: 60px;
+    font-family: Montserrat-Bold;
+    letter-spacing: 7px;
+    color: #d8e126;
+    position: relative;
+    right: 10px;
+}
+
+#termekek_demo a {
+    text-decoration: none;
+    position: relative;
+    top: 1.5em;
+}
+
+.alu_szoveg {
+    font-family: Raleway-Black;
+    font-size: 16px;
+    color: #404041;
+}
+
+.alu_szama {
+    font-family: Raleway-ExtraBold;
+    font-size: 30px;
+    color: #d9e126;
+    padding-right: 10px;
+}
+
+.alu_rudak {
+    position: relative;
+    float: right;
+}
+
+.termekek_carousel {
+    position: relative;
+    top: 5em;
+}
+
 .termekeink {
     padding-top: 150px;
     padding-left: 193px;
@@ -785,15 +839,7 @@ iframe {
     filter: grayscale(100%);
 }
 
-::placeholder {
+.form-control::-moz-placeholder {
     color: white;
     opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: white;
 }

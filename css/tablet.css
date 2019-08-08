@@ -8,6 +8,10 @@
     left: 0px;
 }
 
+#menu_tartalom_rolunk_fuggoleges {
+    padding-top: 30px;
+}
+
 .nav-item a {
     color: black;
     font-family: Montserrat-Bold;
@@ -145,6 +149,12 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+#termekek_demo {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 
 .termekeink {
     padding-top: 75px;
