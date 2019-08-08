@@ -200,7 +200,7 @@
     <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 lablec">
 
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 lablec_elso_tartalom">
 
                 <a class="navbar-brand lablec_logo" href="#">
                     <img src="img/ach-logo-v2.png" alt="Logo">
@@ -219,7 +219,10 @@
 
             </div>
 
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 lablec_linkek">
+
+                <h6>GET IN TOUCH</h6>
+
 
                 <p>
                     <a href="#">info@alacut.hu</a>
@@ -230,7 +233,7 @@
                 </p>
 
 
-                <p>2120 Dunakeszi, Repülőtéri út 1.</p>
+                <p>2120 Dunakeszi,<br>Repülőtéri út 1.</p>
 
                 <div class="lablec_menu">
 
