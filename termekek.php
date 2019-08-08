@@ -41,10 +41,11 @@
     <h2>Termékek</h2>
 
 
-    <a href="#"> <span class="alu_szama">01</span> <span class="alu_szoveg">VASTAG ALUMINUM LEMEZEK</span>
+    <a href="vastag_aluminium_lemezek.php"> <span class="alu_szama">01</span> <span class="alu_szoveg">VASTAG ALUMINUM LEMEZEK</span>
     </a>
 
-    <a href="termekek_aluminium_rudak.php" class="alu_rudak"> <span class="alu_szama">02</span> <span class="alu_szoveg">ALUMINUM RUDAK, PROFILOK SZERELVÉNYEK</span>
+    <a href="termekek_aluminium_rudak.php" class="alu_rudak"> <span class="alu_szama">02</span> <span
+                class="alu_szoveg">ALUMINUM RUDAK, PROFILOK SZERELVÉNYEK</span>
     </a>
 
 
@@ -77,7 +78,19 @@
 </div>
 
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 termekek_test">
-
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+    <br>
+    <h2>Lemezvágat</h2>
 
 </div>
 
