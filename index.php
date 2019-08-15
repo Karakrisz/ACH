@@ -271,13 +271,14 @@
 
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <label class="kalkulator_label">Termék típus</label>
-                        <select class="form-control kalkulator_formok">
-                            <option value="" disabled>Choose option</option>
-                            <option value="1" selected>EN AW 2017</option>
-                            <option value="2">Report a bug</option>
-                            <option value="3">Feature request</option>
-                            <option value="4">Feature request</option>
-                        </select>
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option selected disabled>Choose an option</option>
+                                <option value="1">Pure CSS</option>
+                                <option value="2">No JS</option>
+                                <option value="3">Nice!</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <!-- kalkulator button -->

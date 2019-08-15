@@ -855,3 +855,56 @@ iframe {
     color: white;
     opacity: 1; /* Firefox */
 }
+
+
+
+/* Reset Select */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-color: #404041;
+    background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+/* Custom Select */
+.select {
+    position: relative;
+    display: flex;
+    line-height: 3;
+    overflow: hidden;
+    background-color: #404041;
+    border-radius: 0;
+    width: 190px;
+    height: 50px;
+    border: 1px solid white;
+}
+select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+}
+/* Arrow */
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background-color: #404041;
+    cursor: pointer;
+    pointer-events: none;
+
+}
+/* Transition */
+.select:hover::after {
+    color: #dbe23e;
+}
