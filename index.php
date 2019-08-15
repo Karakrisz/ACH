@@ -110,10 +110,8 @@
         <p>Európa legmodernebb preciziós CNC vágógépei.</p>
         <p>Az ön sikere a Mi sikerünk!</p>
 
-        <a href="#">BŐVEBBEN </a>
-
-        <a class="vonal"></a>
-
+        <a href="#">BŐVEBBEN <i class='far fa-window-minimize' style='font-size:36px'></i>
+        </a>
 
     </div>
 

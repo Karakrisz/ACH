@@ -207,9 +207,11 @@ body {
     letter-spacing: 2px;
 }
 
-.vonal {
-    width: 100%;
-    border-bottom: 1px solid white;
+
+.fa-window-minimize {
+    position: relative;
+    bottom: 5px;
+    left: 10px;
 }
 
 .kulso_logo {
@@ -857,7 +859,6 @@ iframe {
 }
 
 
-
 /* Reset Select */
 select {
     -webkit-appearance: none;
@@ -870,10 +871,12 @@ select {
     background-color: #404041;
     background-image: none;
 }
+
 /* Remove IE arrow */
 select::-ms-expand {
     display: none;
 }
+
 /* Custom Select */
 .select {
     position: relative;
@@ -886,12 +889,14 @@ select::-ms-expand {
     height: 50px;
     border: 1px solid white;
 }
+
 select {
     flex: 1;
     padding: 0 .5em;
     color: #fff;
     cursor: pointer;
 }
+
 /* Arrow */
 .select::after {
     content: '\25BC';
@@ -904,6 +909,7 @@ select {
     pointer-events: none;
 
 }
+
 /* Transition */
 .select:hover::after {
     color: #dbe23e;
