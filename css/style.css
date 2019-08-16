@@ -845,6 +845,10 @@ iframe {
     padding-right: 193px;
 }
 
+.galleria_sor {
+    margin: 15px;
+}
+
 .map {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);

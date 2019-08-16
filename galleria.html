@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <script src="bootstrap-extension/js/4.4.0/bootstrap-extension.min.js"></script>
     <script src="js/my_java.js"></script>
     <link rel="stylesheet" href="bootstrap-extension/css/4.4.0/bootstrap-extension.min.css" type="text/css">
@@ -35,62 +37,21 @@
 
 </div>
 
-<div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 galleria">
-    <h2>Galléria</h2>
-
-
-    <div class="container">
-
-        <h2>Gallery #1</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <a class="wb-link" data-whitebox="#group-1" href="img/nincskep.png">
-                    <img class="w-100 my-3" src="img/nincskep.png" alt="">
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a class="wb-link" data-whitebox="#group-1" href="img/nincskep.png">
-                    <img class="w-100 my-3" src="img/nincskep.png" alt="">
-                </a>
-            </div>
-        </div>
-
-        <h2>Gallery #2</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <a class="wb-link" data-whitebox="#group-2" href="img/nincskep.png">
-                    <img class="w-100 my-3" src="img/nincskep.png" alt="">
-                </a>
-            </div>
-        </div>
-
+<div class="container galleria">
+    <div class="row galleria_sor">
+        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="gallery"
+           class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid rounded">
+        </a>
+        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="gallery"
+           class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid rounded">
+        </a>
+        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="gallery"
+           class="col-md-4">
+            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid rounded">
+        </a>
     </div>
-
-    <div class="wb-data" id="group-1">
-        <a href="img/nincskep.png"><img src="img/small-photo1.jpg" alt="" title="Photo: Brenan Greene"></a>
-        <a href="img/nincskep.png"><img src="img/small-photo2.jpg" alt="" title="Photo: Carissa Gan"></a>
-        <a href="img/nincskep.png"><img src="img/small-photo3.jpg" alt="" title="Photo: Cel Lisboa"></a>
-        <a href="img/nincskep.png"><img src="img/small-photo4.jpg" alt="" title="Photo: David Nuescheler"></a>
-        <a href="img/nincskep.png"><img src="img/small-photo5.jpg" alt="" title="Photo: Nicolas Perondi"></a>
-        <a href="img/nincskep.png"><img src="img/small-photo6.jpg" alt="" title="Photo: Nirzar Pangarkar"></a>
-        <a href="img/photo7.jpg"><img src="img/small-photo7.jpg" alt="" title="Photo: Robert Haverly"></a>
-        <a href="img/photo8.jpg"><img src="img/small-photo8.jpg" alt="" title="Photo: Ronaldo de Oliveira"></a>
-        <a href="img/photo9.jpg"><img src="img/small-photo9.jpg" alt="" title="Photo: Thomas Schweighofer"></a>
-        <a href="img/photo10.jpg"><img src="img/small-photo10.jpg" alt="" title="Photo: Brooke Lark"></a>
-        <a href="img/photo11.jpg"><img src="img/small-photo11.jpg" alt="" title="Photo: Casey Lee"></a>
-        <a href="img/photo12.jpg"><img src="img/small-photo12.jpg" alt="" title="Photo: Erik Lundqvist"></a>
-        <a href="img/photo13.jpg"><img src="img/small-photo13.jpg" alt="" title="Photo: Gianna Ciaramello"></a>
-        <a href="img/photo14.jpg"><img src="img/small-photo14.jpg" alt="" title="Photo: Izzy Boscawen"></a>
-        <a href="img/photo15.jpg"><img src="img/small-photo15.jpg" alt="" title="Photo: Taylor Kiser"></a>
-    </div>
-
-    <div class="wb-data" id="group-2">
-        <a href="img/photo21.jpg"><img src="img/small-photo21.jpg" alt="" title="Photo: Michele Ivani"></a>
-        <a href="img/photo22.jpg"><img src="img/small-photo22.jpg" alt="" title="Photo: Juja Han"></a>
-        <a href="img/photo23.jpg"><img src="img/small-photo23.jpg" alt="" title="Photo: Andrea Reiman"></a>
-    </div>
-
-
 </div>
 
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 reklam_box">
@@ -165,7 +126,8 @@
 
 </div>
 
-<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.122755969438!2d18.97269091536551!3d47.4485465068766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0a8f600a4cb%3A0x7dbc943a284b195e!2zQnVkYXBlc3QsIFJlcMO8bMWRdMOpcmkgw7p0IDEsIDExMTI!5e0!3m2!1shu!2shu!4v1563795099417!5m2!1shu!2shu"
+<iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.122755969438!2d18.97269091536551!3d47.4485465068766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741e0a8f600a4cb%3A0x7dbc943a284b195e!2zQnVkYXBlc3QsIFJlcMO8bMWRdMOpcmkgw7p0IDEsIDExMTI!5e0!3m2!1shu!2shu!4v1563795099417!5m2!1shu!2shu"
         frameborder="0" style="border:0" allowfullscreen></iframe>
 
 <div class="container col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 lablec">

@@ -23,9 +23,6 @@ $(document).ready(function () {
         $(".navbar-dark").fadeIn();
     });
 
-});
-
-$(document).ready(function () {
     $('.rolunk').click(function () {
         $('html, body').animate({
             scrollTop: $("div.test_tartalom").offset().top
@@ -37,4 +34,13 @@ $(document).ready(function () {
             scrollTop: $("div.lablec").offset().top
         }, 1000)
     });
+
+    $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+
+
 });
+
+
