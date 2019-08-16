@@ -16,7 +16,7 @@ body {
 .menu_close {
     position: relative;
     z-index: 1;
-    right: 24px;
+    right: 14px;
 }
 
 .menu_close_a {
