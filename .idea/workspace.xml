@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a70b6e31-34e4-44fe-85fc-7b2949b5ea67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galleria.html" beforeDir="false" afterPath="$PROJECT_DIR$/galleria.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iso.html" beforeDir="false" afterPath="$PROJECT_DIR$/iso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/szolgaltatasok.html" beforeDir="false" afterPath="$PROJECT_DIR$/szolgaltatasok.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termekek.html" beforeDir="false" afterPath="$PROJECT_DIR$/termekek.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/termekek_aluminium_rudak.html" beforeDir="false" afterPath="$PROJECT_DIR$/termekek_aluminium_rudak.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vastag_aluminium_lemezek.html" beforeDir="false" afterPath="$PROJECT_DIR$/vastag_aluminium_lemezek.html" afterDir="false" />
-    </list>
+    <list default="true" id="a70b6e31-34e4-44fe-85fc-7b2949b5ea67" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="108" selection-start-line="11" selection-start-column="108" selection-end-line="11" selection-end-column="108" />
+            <state relative-caret-position="87">
+              <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
             </state>
           </provider>
         </entry>
@@ -119,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="315">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -204,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="814" />
@@ -280,12 +271,12 @@
       <workItem from="1564991040587" duration="708000" />
       <workItem from="1564998642544" duration="6049000" />
       <workItem from="1565253012228" duration="5224000" />
-      <workItem from="1565856951691" duration="5784000" />
+      <workItem from="1565856951691" duration="6182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156997000" />
+    <option name="totallyTimeSpent" value="157395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -297,7 +288,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49315068" weight="0.27110156" />
@@ -445,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="108" selection-start-line="11" selection-start-column="108" selection-end-line="11" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iso.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -489,8 +473,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="315">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="291" lean-forward="true" selection-start-line="291" selection-end-line="291" />
         </state>
       </provider>
     </entry>

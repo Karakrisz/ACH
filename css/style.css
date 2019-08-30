@@ -80,6 +80,11 @@ body {
     bottom: 80px;
 }
 
+.belso_menu a:hover {
+    color: #bcc227;
+
+}
+
 .back {
     position: relative;
     float: right;
