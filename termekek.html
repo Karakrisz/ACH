@@ -41,10 +41,10 @@
     <h2>Termékek</h2>
 
 
-    <a href="vastag_aluminium_lemezek.php"> <span class="alu_szama">01</span> <span class="alu_szoveg">VASTAG ALUMINUM LEMEZEK</span>
+    <a href="vastag_aluminium_lemezek.html"> <span class="alu_szama">01</span> <span class="alu_szoveg">VASTAG ALUMINUM LEMEZEK</span>
     </a>
 
-    <a href="termekek_aluminium_rudak.php" class="alu_rudak"> <span class="alu_szama">02</span> <span
+    <a href="termekek_aluminium_rudak.html" class="alu_rudak"> <span class="alu_szama">02</span> <span
                 class="alu_szoveg">ALUMINUM RUDAK, PROFILOK SZERELVÉNYEK</span>
     </a>
 
@@ -145,13 +145,14 @@
 
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <label class="kalkulator_label">Termék típus</label>
-                        <select class="form-control kalkulator_formok">
-                            <option value="" disabled>Choose option</option>
-                            <option value="1" selected>EN AW 2017</option>
-                            <option value="2">Report a bug</option>
-                            <option value="3">Feature request</option>
-                            <option value="4">Feature request</option>
-                        </select>
+                        <div class="select">
+                            <select name="slct" id="slct">
+                                <option selected disabled>Choose an option</option>
+                                <option value="1">Pure CSS</option>
+                                <option value="2">No JS</option>
+                                <option value="3">Nice!</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="col-xl-6 xl-lg-6 xl-md-6">
                         <!-- kalkulator button -->
