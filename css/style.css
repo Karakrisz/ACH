@@ -248,7 +248,7 @@ body {
     bottom: 50px;
 }
 
-.test_tartalom > div {
+.test_tartalom>div {
     position: relative;
     top: 5em;
 }
@@ -864,7 +864,8 @@ iframe {
 
 .form-control::-moz-placeholder {
     color: white;
-    opacity: 1; /* Firefox */
+    opacity: 1;
+    /* Firefox */
 }
 
 
@@ -922,4 +923,8 @@ select {
 /* Transition */
 .select:hover::after {
     color: #dbe23e;
+}
+
+.error {
+    background: pink;
 }

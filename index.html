@@ -2,9 +2,7 @@
 <html lang="hu">
 
 <head>
-    <title>
-        ACH
-    </title>
+    <title>ACH</title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -13,16 +11,11 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap-extension/css/4.4.0/bootstrap-extension.min.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-    </script>
-    <script src="bootstrap-extension/js/4.4.0/bootstrap-extension.min.js">
-    </script>
-    <script src="js/my_java.js">
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="bootstrap-extension/js/4.4.0/bootstrap-extension.min.js"></script>
+    <script src="js/my_java.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/tablet.css" media="only screen and (min-width: 675px) and (max-width: 1200px) " rel="stylesheet"
         type="text/css" />
@@ -35,7 +28,6 @@
             <div class="navbar navbar-dark">
                 <a class="navbar-brand kulso_logo" href="index.html">
                     <img alt="Logo" src="img/ach-logo-v1.png">
-                    </img>
                 </a>
                 <button class="offcanvas-toggler" type="button">
                     <img alt="menu_open" class="menu_open" src="img/menu_open.png">
@@ -403,19 +395,21 @@
                         </img>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                        <form action="#!" method="post">
+                        <form id="kalkulator" action="kalkulator.php" method="GET">
                             <div class="form-row mb-4">
                                 <div class="col-xl-6 xl-lg-6 xl-md-6">
                                     <label class="kalkulator_label">
                                         Vastagság (a)
                                     </label>
-                                    <input class="form-control kalkulator_formok" placeholder="1 mm" type="text">
+                                    <input class="form-control kalkulator_formok" id="vastagsag" name="vastagsag"
+                                        placeholder="1 mm" type="text">
                                 </div>
                                 <div class="col-xl-6 xl-lg-6 xl-md-6">
                                     <label class="kalkulator_label">
                                         Szélesség (b)
                                     </label>
-                                    <input class="form-control kalkulator_formok" placeholder="1 mm" type="text">
+                                    <input class="form-control kalkulator_formok" id="szelesseg" name="szelesseg"
+                                        placeholder="1 mm" type="text">
                                 </div>
                             </div>
                             <div class="form-row mb-4">
@@ -423,13 +417,15 @@
                                     <label class="kalkulator_label">
                                         Hosszúság (c)
                                     </label>
-                                    <input class="form-control kalkulator_formok" placeholder="1 mm" type="text">
+                                    <input class="form-control kalkulator_formok" id="hosszusag" name="hosszusag"
+                                        placeholder="1 mm" type="text">
                                 </div>
                                 <div class="col-xl-6 xl-lg-6 xl-md-6">
                                     <label class="kalkulator_label">
                                         Mennyiség
                                     </label>
-                                    <input class="form-control kalkulator_formok" placeholder="1 db" type="text">
+                                    <input class="form-control kalkulator_formok" id="mennyiseg" name="mennyiseg"
+                                        placeholder="1 db" type="number"> db
                                 </div>
                             </div>
                             <div class="form-row mb-4">
@@ -438,18 +434,18 @@
                                         Termék típus
                                     </label>
                                     <div class="select">
-                                        <select id="slct" name="slct">
+                                        <select id="termek_tipus" name="termek_tipus">
                                             <option disabled="" selected="">
                                                 Choose an option
                                             </option>
+                                            <option value="0">
+                                                Acél
+                                            </option>
                                             <option value="1">
-                                                Pure CSS
+                                                Aluminim
                                             </option>
                                             <option value="2">
-                                                No JS
-                                            </option>
-                                            <option value="3">
-                                                Nice!
+                                                Bádog
                                             </option>
                                         </select>
                                     </div>
@@ -463,6 +459,11 @@
                             </div>
                         </form>
                     </div>
+                </div>
+                <div class="row">
+                    <p id="osszsuly_eredmeny">
+                        0 kg
+                    </p>
                 </div>
             </div>
             <iframe allowfullscreen="" class="map" frameborder="0"
